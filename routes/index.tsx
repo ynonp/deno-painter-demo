@@ -7,6 +7,8 @@ export default function Home() {
     <div class="px-4 py-8 mx-auto ">
       <ControlPanel />
       <Painter />
+      <hr />
+      <Painter />
     </div>
   );
 }

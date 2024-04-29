@@ -2,7 +2,7 @@ import { color, setColor, picture } from './state.tsx'
 
 export default function Painter() {  
   const size = picture.value.size;
-
+  console.count('render');
   return (
     <div className="grid" style={{gridTemplateColumns: `repeat(${size}, minmax(0, 1rem))`}}>
     {
